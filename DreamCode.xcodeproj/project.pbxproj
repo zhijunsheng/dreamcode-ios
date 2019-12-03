@@ -14,6 +14,7 @@
 		82404E8B239355990080396D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82404E8A239355990080396D /* Assets.xcassets */; };
 		82404E8E239355990080396D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82404E8C239355990080396D /* LaunchScreen.storyboard */; };
 		82404E992393559A0080396D /* DreamCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82404E982393559A0080396D /* DreamCodeTests.swift */; };
+		8240D7E323967FF7002DA238 /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8240D7E223967FF7002DA238 /* BoardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		82404E942393559A0080396D /* DreamCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DreamCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		82404E982393559A0080396D /* DreamCodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamCodeTests.swift; sourceTree = "<group>"; };
 		82404E9A2393559A0080396D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8240D7E223967FF7002DA238 /* BoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 			children = (
 				82404E83239355920080396D /* SceneDelegate.swift */,
 				82404E85239355920080396D /* ViewController.swift */,
+				8240D7E223967FF7002DA238 /* BoardView.swift */,
 				82404E87239355920080396D /* Main.storyboard */,
 				82404E8C239355990080396D /* LaunchScreen.storyboard */,
 				82404E8A239355990080396D /* Assets.xcassets */,
@@ -201,6 +204,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				82404E86239355920080396D /* ViewController.swift in Sources */,
+				8240D7E323967FF7002DA238 /* BoardView.swift in Sources */,
 				82404E82239355920080396D /* AppDelegate.swift in Sources */,
 				82404E84239355920080396D /* SceneDelegate.swift in Sources */,
 			);
