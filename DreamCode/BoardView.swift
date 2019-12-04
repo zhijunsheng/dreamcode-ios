@@ -16,16 +16,16 @@ class BoardView: UIView {
         
         for i in 0..<5 + 1 {
             hor.move(to: CGPoint(x: originX + side * CGFloat(i), y: originY))
-            hor.addLine(to: CGPoint(x: originX + side * CGFloat(i), y: originY + side * (4 + 5)))
+            hor.addLine(to: CGPoint(x: originX + side * CGFloat(i), y: originY + side * 4))
         }
-//        // vertical * 4
-//        let ver = UIBezierPath()
-//        ver.move(to: CGPoint(x: originX, y: originY))
-//        for i in 0..<4 + 1 {
-//            ver.addLine(to: CGPoint(x: originX + side * (5 + 1), y: originY + side * CGFloat(i)))
-//        }
+        // vertical * 4
+        let ver = UIBezierPath()
+        for i in 0..<4 + 1 {
+            ver.move(to: CGPoint(x: originX, y: originY + side * CGFloat(i)))
+            ver.addLine(to: CGPoint(x: originX + side * 5, y: originY + side * CGFloat(i)))
+        }
         hor.stroke()
-//        ver.stroke()
+        ver.stroke()
     }
 }
 // --- : 100 * 5 = 500 728 - 500 = 228 228 ÷ 2 = 114
